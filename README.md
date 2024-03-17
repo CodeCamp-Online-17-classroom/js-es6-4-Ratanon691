@@ -1,12 +1,12 @@
-# js-lab-147
-### Lab 147 ES6: ฟังก์ชัน mergeObjects
-จงเขียนฟังก์ชัน mergeObjects โดยพารามิเตอร์ของฟังก์ชันสามารถรับ Object ได้ไม่จำกัด และให้ return ค่าเป็น Object ที่เกิดจาก Object ในพารามิเตอร์มา merge กัน (ในกรณีที่ Object ในพารามิเตอร์มี key ซ้ำกันให้ยึดค่าพารามิเตอร์ตัวที่มาก่อนเป็นหลัก)
+# js-lab-148
+### Lab 148 ES6: รวม nums1 และ num2
+- จงรวม nums1 และ num2 เข้าด้วยกัน
+- จงสร้าง array ที่ได้จากการนำ nums1 และ nums2 มารวมกัน แต่ให้เพิ่ม 5 เข้าไปก่อน nums1 และเพิ่ม -6, -1 เข้าไประหว่าง nums1 กับ nums2
+- หาผลรวมของทุก element ใน Array ที่ได้
 
 ```JavaScript
-const obj1 = { a: 1, b: 2 };
-const obj2 = { b: 3, c: 4 };
-const obj3 = { d: 5 };
+const nums1 = [1, -2, 3, 4];
+const nums2 = [8, 3, -8, 1];
 
-console.log(mergeObjects(obj1, obj2, obj3));
-// { a: 1, b: 3, c: 4, d: 5 }
+// [5, 1, -2, 3, 4, -6, -1, 8, 3, -8, 1]
 ```
